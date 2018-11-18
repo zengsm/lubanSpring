@@ -14,15 +14,12 @@ import javax.persistence.OneToMany;
 public class User {
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
-	
 	@Column(unique = true)
 	private String name;
-	
 	private Integer password;
-	
-	@OneToMany(cascade = CascadeType.ALL,mappedBy = "user")
+	@OneToMany(cascade = CascadeType.ALL, mappedBy = "user")
 	private List<Role> roles;
 
 	public Long getId() {
@@ -41,14 +38,6 @@ public class User {
 		this.name = name;
 	}
 
-	public Integer getPassword() {
-		return password;
-	}
-
-	public void setPassword(Integer password) {
-		this.password = password;
-	}
-
 	public List<Role> getRoles() {
 		return roles;
 	}
@@ -56,5 +45,12 @@ public class User {
 	public void setRoles(List<Role> roles) {
 		this.roles = roles;
 	}
-	
+
+	public Integer getPassword() {
+		return password;
+	}
+
+	public void setPassword(Integer password) {
+		this.password = password;
+	}
 }

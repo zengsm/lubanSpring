@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans default="byType">
+	<bean id="dao" class="com.luban.dao.UserDaoImpl"></bean>
+	<bean id="service" class="com.luban.service.UserServiceImpl">
+		<property name="dao" ref="dao" />
+	</bean>
+</beans>

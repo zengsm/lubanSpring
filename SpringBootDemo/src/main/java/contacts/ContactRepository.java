@@ -9,10 +9,10 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 
-@Repository
+//@Repository
 public class ContactRepository {
 
-	private JdbcTemplate jdbc;
+	/*private JdbcTemplate jdbc;
 	
 	@Autowired
 	public ContactRepository(JdbcTemplate jdbc){
@@ -41,6 +41,6 @@ public class ContactRepository {
 	public void save(Contact contact){
 		String sql = "insert into contacts (firstName, lastName, phoneNumber, emailAddress) values(?,?,?,?)";
 		jdbc.update(sql, contact.getFirstName(),contact.getLastName(),contact.getPhoneNumber(),contact.getEmailAddress());
-	}
+	}*/
 	
 }

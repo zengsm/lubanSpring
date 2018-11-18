@@ -17,13 +17,10 @@ public class Role {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
-	
 	private String roleName;
-	
 	@ManyToOne(fetch = FetchType.EAGER)
 	private User user;
-	
-	@OneToMany(cascade = CascadeType.ALL,mappedBy = "role")
+	@OneToMany(cascade = CascadeType.ALL, mappedBy = "role")
 	private List<Permission> permissions;
 
 	public Long getId() {
@@ -57,5 +54,4 @@ public class Role {
 	public void setPermissions(List<Permission> permissions) {
 		this.permissions = permissions;
 	}
-	
 }

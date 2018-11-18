@@ -1,4 +1,15 @@
+D:\eclipse\code1\SpringBootDemo\src\main\java\com\shiro\repository\UserRepository.java
+D:\eclipse\code1\SpringBootDemo\src\main\java\com\shiro\domain\Permission.java
+D:\eclipse\code1\SpringBootDemo\src\main\java\com\shiro\repository\BaseRepository.java
 D:\eclipse\code1\SpringBootDemo\src\main\java\contacts\Application.java
 D:\eclipse\code1\SpringBootDemo\src\main\java\contacts\ContactController.java
+D:\eclipse\code1\SpringBootDemo\src\main\java\com\shiro\config\MyShiroRealm.java
+D:\eclipse\code1\SpringBootDemo\src\main\java\com\shiro\domain\Role.java
+D:\eclipse\code1\SpringBootDemo\src\main\java\com\shiro\resource\LoginResource.java
+D:\eclipse\code1\SpringBootDemo\src\main\java\com\shiro\config\ShiroConfiguration.java
+D:\eclipse\code1\SpringBootDemo\src\main\java\com\shiro\domain\User.java
+D:\eclipse\code1\SpringBootDemo\src\main\java\com\shiro\service\ILoginServcie.java
 D:\eclipse\code1\SpringBootDemo\src\main\java\contacts\Contact.java
+D:\eclipse\code1\SpringBootDemo\src\main\java\com\shiro\repository\RoleRepository.java
 D:\eclipse\code1\SpringBootDemo\src\main\java\contacts\ContactRepository.java
+D:\eclipse\code1\SpringBootDemo\src\main\java\com\shiro\service\impl\LoginServiceImpl.java

@@ -1,8 +1,11 @@
 package contacts;
 
+import org.springframework.data.repository.NoRepositoryBean;
+
+@NoRepositoryBean
 public class Contact {
 
-	private Long id;
+	/*private Long id;
 	private String firstName;
 	private String lastName;
 	private String phoneNumber;
@@ -37,6 +40,6 @@ public class Contact {
 	public void setEmailAddress(String emailAddress) {
 		this.emailAddress = emailAddress;
 	}
-	
+	*/
 	
 }

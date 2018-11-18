@@ -8,11 +8,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-@Controller
-@RequestMapping("/")
+//@Controller
+//@RequestMapping("/")
 public class ContactController {
 
-	@Autowired
+	/*@Autowired
 	private ContactRepository contactRepository;
 	
 	
@@ -31,5 +31,5 @@ public class ContactController {
 	public String submit(Contact contact){
 		contactRepository.save(contact);
 		return "redirect:/";
-	}
+	}*/
 }

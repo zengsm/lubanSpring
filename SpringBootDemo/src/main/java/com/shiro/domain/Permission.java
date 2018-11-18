@@ -14,7 +14,6 @@ public class Permission {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	private String permission;
-	
 	@ManyToOne(fetch = FetchType.EAGER)
 	private Role role;
 
@@ -41,6 +40,4 @@ public class Permission {
 	public void setRole(Role role) {
 		this.role = role;
 	}
-	
-	
 }
